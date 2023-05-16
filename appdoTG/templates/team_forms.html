@@ -1,0 +1,20 @@
+<form method="post">
+  {% csrf_token %}
+  <div>
+    <label>Título</label>
+    <input type="text" name="título">
+  </div>
+  <div>
+    <label>Time</label>
+    <input type="text" name="time">
+  </div>
+  <div>
+    <label>Gols</label>
+    <input type="text" name="gols">
+  </div>
+  <div>
+    <input type="checkbox" name="clube_atual">
+    <label>Clube Atual?</label>
+  </div>
+  <input type="submit">
+</form>

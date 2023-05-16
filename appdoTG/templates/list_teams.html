@@ -1,0 +1,9 @@
+<ul class="team-list">
+  {% for TiquinhoTeams in teams %}
+    <li>
+      {{ TiquinhoTeams.time }} {{ TiquinhoTeams.gols }}
+      <a href="/teams/delete/{{TiquinhoTeams.id}}">Deletar</a>
+      <a href="/teams/edit/{{TiquinhoTeams.id}}">Editar</a>
+    </li>
+  {% endfor %}
+</ul>

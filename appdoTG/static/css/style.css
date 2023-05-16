@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: blue;
+}
+table, th,td {
+  border: 1px solid black;
+}
+header {
+  color: black;
+}
+li {
+  color:gray
+}
+h1{
+  font-family: Arial;
+}

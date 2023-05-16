@@ -1,0 +1,9 @@
+<ul class="stats-list">
+  {% for TiquinhoStats in stats %}
+    <li>
+      {{ TiquinhoStats.números }} {{ TiquinhoStats.tipo }}
+      <a href="/stats/delete/{{TiquinhoStats.id}}">Deletar</a>
+      <a href="stats/edi/{{TiquinhoStats.id}}">Editar</a>
+    </li>
+  {% endfor %}
+</ul>
